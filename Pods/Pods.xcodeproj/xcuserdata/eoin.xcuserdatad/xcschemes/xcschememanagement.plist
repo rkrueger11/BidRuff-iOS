@@ -9,77 +9,77 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-AFNetworking.xcscheme</key>
+		<key>Pods-BidRuffApp-AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-AFViewShaker.xcscheme</key>
+		<key>Pods-BidRuffApp-AFViewShaker.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-CSNotificationView.xcscheme</key>
+		<key>Pods-BidRuffApp-CSNotificationView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-HSBetaNagger.xcscheme</key>
+		<key>Pods-BidRuffApp-HSBetaNagger.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-HSToastView.xcscheme</key>
+		<key>Pods-BidRuffApp-HSToastView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-IHKeyboardAvoiding.xcscheme</key>
+		<key>Pods-BidRuffApp-IHKeyboardAvoiding.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-JTTargetActionBlock.xcscheme</key>
+		<key>Pods-BidRuffApp-JTTargetActionBlock.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-NSAttributedStringMarkdownParser.xcscheme</key>
+		<key>Pods-BidRuffApp-NSAttributedStringMarkdownParser.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-NSDate+RelativeTime.xcscheme</key>
+		<key>Pods-BidRuffApp-NSDate+RelativeTime.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-NSTimer-Blocks.xcscheme</key>
+		<key>Pods-BidRuffApp-NSTimer-Blocks.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-SVProgressHUD.xcscheme</key>
+		<key>Pods-BidRuffApp-SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-UIImage-Resize.xcscheme</key>
+		<key>Pods-BidRuffApp-UIImage-Resize.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-fmemopen.xcscheme</key>
+		<key>Pods-BidRuffApp-fmemopen.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-pop.xcscheme</key>
+		<key>Pods-BidRuffApp-pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp.xcscheme</key>
+		<key>Pods-BidRuffApp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

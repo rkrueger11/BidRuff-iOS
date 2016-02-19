@@ -47,7 +47,7 @@
 		830050886B18F54E17F117FD8EFC717B /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FB62A9B47E69F98FB0A89F0C0D202D88 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85764374184EC2477AACD1ECF9A5A390 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E0FE3FE842276104F4265B33BCAA5D /* AFURLSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		85FAB6F1D2FE0598BF2E61D7BB084B8D /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EF3F9B51E3B413C668902BEF5442D6B4 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F9C3D55101A46405685FAEFCE225A79 /* Pods-AuctionApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAF81A246F73C35C80C991D2CFEF283 /* Pods-AuctionApp-dummy.m */; };
+		8F9C3D55101A46405685FAEFCE225A79 /* Pods-BidRuffApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAF81A246F73C35C80C991D2CFEF283 /* Pods-BidRuffApp-dummy.m */; };
 		9157CCFDB647DAB725674F165C83AFF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7010AEEFD9109BBC146A6A64C23DFB5 /* Foundation.framework */; };
 		9177FA86BC19AB14D506D2D634CD1063 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A31C296C2727F9D8644FF88F81A91194 /* UIRefreshControl+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		91D68EA9B581F8F57614187C87D584B3 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E056D4C0882930FCF8B80473811887D /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -160,7 +160,7 @@
 		108B8F5F38C5301CCFF08722231B80CE /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		1323CCA30894BE02E22470F26857E7E4 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		13F18A37B17C0BC7FDCE10B13AEF90C2 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		16713AD8A2C3A3C4293F97E0F37D4395 /* libPods-AuctionApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AuctionApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16713AD8A2C3A3C4293F97E0F37D4395 /* libPods-BidRuffApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BidRuffApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA7CC1D9F48FEB35CA862CF05CBDC8A /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		21D49E4349C23D3B28EB43197C3D50D3 /* exclamationMark@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "exclamationMark@3x.png"; path = "CSNotificationView/Resources/exclamationMark@3x.png"; sourceTree = "<group>"; };
 		24F5883C5A12F342BFB161E2268A5CA0 /* CSNotificationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSNotificationView-dummy.m"; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 		3009588917C812544035354F0A799163 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		30698E2CEBFBC9D37DBA6BCFD802EAD5 /* AFViewShaker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFViewShaker-dummy.m"; sourceTree = "<group>"; };
 		38B53F351F2E9EEE2DF608BCA66676CB /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		3B203DD031DC0E7C20B2B543E5749E14 /* Pods-AuctionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AuctionApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3B203DD031DC0E7C20B2B543E5749E14 /* Pods-BidRuffApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BidRuffApp.debug.xcconfig"; sourceTree = "<group>"; };
 		44AD9F01EB0F1849E5AB038216F1A295 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		4ADB47C9A362E2B029DA9F228C441D02 /* CSNotificationView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSNotificationView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE9A6E1CB4230944944DEF5B8FAD4B2 /* libAFViewShaker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFViewShaker.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,17 +203,17 @@
 		84927C8E3726390CDD5A015C3CB6B37E /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		84D469A639022C2787096DCDF2A15DFF /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		8C02B82BD0B06B3C8B80133A855359B8 /* NSDate+RelativeTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+RelativeTime.h"; sourceTree = "<group>"; };
-		8DB93F03DC1D3879A22EAA4E18CFD40F /* Pods-AuctionApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AuctionApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DB93F03DC1D3879A22EAA4E18CFD40F /* Pods-BidRuffApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BidRuffApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		909A0A9643D3C5C16C868A3402C75FD9 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		92ADA3E3D0A03BE77599ED49A2550941 /* AFViewShaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFViewShaker.h; path = AFViewShaker/AFViewShaker.h; sourceTree = "<group>"; };
 		93212CD0AD3977D08153015E63D1ED44 /* exclamationMark@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "exclamationMark@2x.png"; path = "CSNotificationView/Resources/exclamationMark@2x.png"; sourceTree = "<group>"; };
 		970E7625907B6D183856DE90057F1BD5 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		9BA44C57D9B538E4F098BE4C412AE2B4 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		9EC102C0C254C5D2FC059D662926F0F0 /* Pods-AuctionApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AuctionApp-resources.sh"; sourceTree = "<group>"; };
+		9EC102C0C254C5D2FC059D662926F0F0 /* Pods-BidRuffApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BidRuffApp-resources.sh"; sourceTree = "<group>"; };
 		A31C296C2727F9D8644FF88F81A91194 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		A46F2A899748F7F7D2CCE33BB0773044 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		A9954AE7FDC5F36CAE3F42114FC1CB10 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		AEAF81A246F73C35C80C991D2CFEF283 /* Pods-AuctionApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AuctionApp-dummy.m"; sourceTree = "<group>"; };
+		AEAF81A246F73C35C80C991D2CFEF283 /* Pods-BidRuffApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BidRuffApp-dummy.m"; sourceTree = "<group>"; };
 		AF189CD02D9A4FB8B331039E7CA3326B /* checkmark.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = checkmark.png; path = CSNotificationView/Resources/checkmark.png; sourceTree = "<group>"; };
 		AFE18951CA982650D4F7DD3D6FE41EC7 /* AFViewShaker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFViewShaker-prefix.pch"; sourceTree = "<group>"; };
 		B1002D711C051C244ABC0A8094D3EF38 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
@@ -227,7 +227,7 @@
 		C9234FF732DB807B3C8ADA47F4293F8C /* UIImage-Resize-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage-Resize-prefix.pch"; sourceTree = "<group>"; };
 		CBCFFB0A63BBF3EEB8F76FBF8B901A8A /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		CF770A5D9CDD7D82C36234B2731115AB /* CSNativeBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNativeBlurView.m; path = CSNotificationView/CSNativeBlurView.m; sourceTree = "<group>"; };
-		D1D929FC0B6A1179E92074E7B7AD468E /* Pods-AuctionApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AuctionApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1D929FC0B6A1179E92074E7B7AD468E /* Pods-BidRuffApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BidRuffApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D2C3B127B282CC5254E1A41A5AAD8057 /* IHKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IHKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
 		D3467830827A3969D419BF786D044A74 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		D39DC879145F0904512C7F7F38D282BB /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
@@ -236,9 +236,9 @@
 		D9E6AC793F19B8BFA50137CAB638AFA1 /* UIImage+Resize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
 		DA3CB0B7BE4AF92E3A55B06CDCA29ED6 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		DB585120994E25B3DA507E6F4EC695C0 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD5940922EF1B80C2CFDCF5F105D72D8 /* Pods-AuctionApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AuctionApp-frameworks.sh"; sourceTree = "<group>"; };
+		DD5940922EF1B80C2CFDCF5F105D72D8 /* Pods-BidRuffApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BidRuffApp-frameworks.sh"; sourceTree = "<group>"; };
 		DEBAE07EE582B63F95830DA6F809554C /* IHKeyboardAvoiding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IHKeyboardAvoiding.m; path = Classes/IHKeyboardAvoiding.m; sourceTree = "<group>"; };
-		DFEC4061150D9A225F5FA62EBCCB99B5 /* Pods-AuctionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AuctionApp.release.xcconfig"; sourceTree = "<group>"; };
+		DFEC4061150D9A225F5FA62EBCCB99B5 /* Pods-BidRuffApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BidRuffApp.release.xcconfig"; sourceTree = "<group>"; };
 		E413FC99EBC6A43C5B60191E1D3997A0 /* checkmark@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkmark@2x.png"; path = "CSNotificationView/Resources/checkmark@2x.png"; sourceTree = "<group>"; };
 		E7010AEEFD9109BBC146A6A64C23DFB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E78E756114A492222B801C75804AFC6C /* CSNotificationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNotificationView.h; path = CSNotificationView/CSNotificationView.h; sourceTree = "<group>"; };
@@ -403,19 +403,19 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		3E1FA10DE124616C6E40059C7E0C660E /* Pods-AuctionApp */ = {
+		3E1FA10DE124616C6E40059C7E0C660E /* Pods-BidRuffApp */ = {
 			isa = PBXGroup;
 			children = (
-				D1D929FC0B6A1179E92074E7B7AD468E /* Pods-AuctionApp-acknowledgements.markdown */,
-				8DB93F03DC1D3879A22EAA4E18CFD40F /* Pods-AuctionApp-acknowledgements.plist */,
-				AEAF81A246F73C35C80C991D2CFEF283 /* Pods-AuctionApp-dummy.m */,
-				DD5940922EF1B80C2CFDCF5F105D72D8 /* Pods-AuctionApp-frameworks.sh */,
-				9EC102C0C254C5D2FC059D662926F0F0 /* Pods-AuctionApp-resources.sh */,
-				3B203DD031DC0E7C20B2B543E5749E14 /* Pods-AuctionApp.debug.xcconfig */,
-				DFEC4061150D9A225F5FA62EBCCB99B5 /* Pods-AuctionApp.release.xcconfig */,
+				D1D929FC0B6A1179E92074E7B7AD468E /* Pods-BidRuffApp-acknowledgements.markdown */,
+				8DB93F03DC1D3879A22EAA4E18CFD40F /* Pods-BidRuffApp-acknowledgements.plist */,
+				AEAF81A246F73C35C80C991D2CFEF283 /* Pods-BidRuffApp-dummy.m */,
+				DD5940922EF1B80C2CFDCF5F105D72D8 /* Pods-BidRuffApp-frameworks.sh */,
+				9EC102C0C254C5D2FC059D662926F0F0 /* Pods-BidRuffApp-resources.sh */,
+				3B203DD031DC0E7C20B2B543E5749E14 /* Pods-BidRuffApp.debug.xcconfig */,
+				DFEC4061150D9A225F5FA62EBCCB99B5 /* Pods-BidRuffApp.release.xcconfig */,
 			);
-			name = "Pods-AuctionApp";
-			path = "Target Support Files/Pods-AuctionApp";
+			name = "Pods-BidRuffApp";
+			path = "Target Support Files/Pods-BidRuffApp";
 			sourceTree = "<group>";
 		};
 		449A530097D2E3ED60D0D632A53F3F2D /* AFNetworking */ = {
@@ -435,7 +435,7 @@
 		52F4DE1BA044CBB520656F916C10D7E2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E1FA10DE124616C6E40059C7E0C660E /* Pods-AuctionApp */,
+				3E1FA10DE124616C6E40059C7E0C660E /* Pods-BidRuffApp */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -538,7 +538,7 @@
 				7C3E1BAD46F302F6B3598DF279FA2EF3 /* libCSNotificationView.a */,
 				107AEC4756B6AD38976A7CB8989318E9 /* libIHKeyboardAvoiding.a */,
 				7BFFD915377FE4C8A1229D929F0E43CC /* libNSDate+RelativeTime.a */,
-				16713AD8A2C3A3C4293F97E0F37D4395 /* libPods-AuctionApp.a */,
+				16713AD8A2C3A3C4293F97E0F37D4395 /* libPods-BidRuffApp.a */,
 				02E8D3C418A4CA8F6134662F693D6096 /* libSVProgressHUD.a */,
 				EB5D0C261A6EE80C4C517BD21EF23D65 /* libUIImage-Resize.a */,
 			);
@@ -766,9 +766,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		157BDF3645B9A4FD550D7EC3827BEF0A /* Pods-AuctionApp */ = {
+		157BDF3645B9A4FD550D7EC3827BEF0A /* Pods-BidRuffApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04491BA08811E42296756F6F68DD9391 /* Build configuration list for PBXNativeTarget "Pods-AuctionApp" */;
+			buildConfigurationList = 04491BA08811E42296756F6F68DD9391 /* Build configuration list for PBXNativeTarget "Pods-BidRuffApp" */;
 			buildPhases = (
 				28061442073FF0444AC86186599C273E /* Sources */,
 				7D13B7811211C84B6B7D3C6A88FBB075 /* Frameworks */,
@@ -784,9 +784,9 @@
 				1403FD41BBF85E113C41C0B26B9A229C /* PBXTargetDependency */,
 				52E6932B82FBBA09865D54C19BEC1C2F /* PBXTargetDependency */,
 			);
-			name = "Pods-AuctionApp";
-			productName = "Pods-AuctionApp";
-			productReference = 16713AD8A2C3A3C4293F97E0F37D4395 /* libPods-AuctionApp.a */;
+			name = "Pods-BidRuffApp";
+			productName = "Pods-BidRuffApp";
+			productReference = 16713AD8A2C3A3C4293F97E0F37D4395 /* libPods-BidRuffApp.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		395ECC6AF1AB8050CDF5A3BCA8D8C0AB /* CSNotificationView-CSNotificationView */ = {
@@ -953,7 +953,7 @@
 				395ECC6AF1AB8050CDF5A3BCA8D8C0AB /* CSNotificationView-CSNotificationView */,
 				758BD33A54E94AFAEF82DF604E460408 /* IHKeyboardAvoiding */,
 				4FC57AD0A574066CF6D2C2D9857A50F7 /* NSDate+RelativeTime */,
-				157BDF3645B9A4FD550D7EC3827BEF0A /* Pods-AuctionApp */,
+				157BDF3645B9A4FD550D7EC3827BEF0A /* Pods-BidRuffApp */,
 				C3E6CF8EA92BA6B6EB2FAEA3220F8AF2 /* SVProgressHUD */,
 				5C6D09408E0929A6C86CE799F9978DF9 /* UIImage-Resize */,
 			);
@@ -1008,7 +1008,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9C3D55101A46405685FAEFCE225A79 /* Pods-AuctionApp-dummy.m in Sources */,
+				8F9C3D55101A46405685FAEFCE225A79 /* Pods-BidRuffApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1205,7 +1205,7 @@
 		};
 		149028001F5B5258046B28440E3E5E38 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFEC4061150D9A225F5FA62EBCCB99B5 /* Pods-AuctionApp.release.xcconfig */;
+			baseConfigurationReference = DFEC4061150D9A225F5FA62EBCCB99B5 /* Pods-BidRuffApp.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -1330,7 +1330,7 @@
 		};
 		93DA955DB96B1E7E52B521428970B4DE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B203DD031DC0E7C20B2B543E5749E14 /* Pods-AuctionApp.debug.xcconfig */;
+			baseConfigurationReference = 3B203DD031DC0E7C20B2B543E5749E14 /* Pods-BidRuffApp.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -1513,7 +1513,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04491BA08811E42296756F6F68DD9391 /* Build configuration list for PBXNativeTarget "Pods-AuctionApp" */ = {
+		04491BA08811E42296756F6F68DD9391 /* Build configuration list for PBXNativeTarget "Pods-BidRuffApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93DA955DB96B1E7E52B521428970B4DE /* Debug */,

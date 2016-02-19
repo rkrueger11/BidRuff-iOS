@@ -2,7 +2,7 @@
 platform :ios, '7.0'
 inhibit_all_warnings!
 
-target 'AuctionApp' do
+target 'BidRuffApp' do
   pod 'AFNetworking', :head
   pod 'SVProgressHUD', :head
   pod "AFViewShaker", "~> 0.0.2"

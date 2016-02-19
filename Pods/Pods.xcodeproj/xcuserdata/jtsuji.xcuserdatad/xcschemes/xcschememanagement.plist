@@ -9,42 +9,42 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-AFNetworking.xcscheme</key>
+		<key>Pods-BidRuffApp-AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-AFViewShaker.xcscheme</key>
+		<key>Pods-BidRuffApp-AFViewShaker.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-CSNotificationView.xcscheme</key>
+		<key>Pods-BidRuffApp-CSNotificationView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-IHKeyboardAvoiding.xcscheme</key>
+		<key>Pods-BidRuffApp-IHKeyboardAvoiding.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-NSDate+RelativeTime.xcscheme</key>
+		<key>Pods-BidRuffApp-NSDate+RelativeTime.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-SVProgressHUD.xcscheme</key>
+		<key>Pods-BidRuffApp-SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp-UIImage-Resize.xcscheme</key>
+		<key>Pods-BidRuffApp-UIImage-Resize.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AuctionApp.xcscheme</key>
+		<key>Pods-BidRuffApp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
