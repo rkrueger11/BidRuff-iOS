@@ -34,14 +34,14 @@ class LoginViewController: UIViewController {
                     self.performSegueWithIdentifier("loginToItemSegue", sender: nil)
                 } else {
                     let errorString = error.userInfo!["error"] as! NSString
-                    println("Error Signing up: \(error)")
+                    print("Error Signing up: \(error)")
                     PFUser.logInWithUsernameInBackground(user.username, password: user.password, block: { (user, error) -> Void in
                         if error == nil {
                             
                             self.registerForPush()
                             self.performSegueWithIdentifier("loginToItemSegue", sender: nil)
                         }else{
-                            println("Error logging in ")
+                            print("Error logging in ")
                             self.viewShaker?.shake()
                         }
                     })

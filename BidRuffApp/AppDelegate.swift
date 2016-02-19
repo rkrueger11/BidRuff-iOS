@@ -57,7 +57,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             tokenString += String(format: "%02.2hhx", arguments: [tokenChars[i]])
         }
         
-        println("tokenString: \(tokenString)")
+        print("tokenString: \(tokenString)")
         
         currentInstalation.setDeviceTokenFromData(deviceToken)
         currentInstalation.saveInBackgroundWithBlock(nil)
@@ -65,7 +65,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
         NSNotificationCenter.defaultCenter().postNotificationName("pushRecieved", object: userInfo)
-//        println("Push! \(userInfo)")
+//        print("Push! \(userInfo)")
         
     }
     

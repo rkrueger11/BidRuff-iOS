@@ -28,7 +28,7 @@ class DataManager: NSObject {
         query.addAscendingOrder("name")
         query.findObjectsInBackgroundWithBlock { (results, error) -> Void in
             if error != nil{
-                println("Error!! \(error)")
+                print("Error!! \(error)")
                 completion([Item](), error)
             }else{
                 if let itemsUW = results as? [Item] {

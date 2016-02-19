@@ -53,7 +53,7 @@ class ItemListViewController: UIViewController, UITableViewDelegate, UITableView
         reloadData(silent: false, initialLoad: true)
 
         let user = PFUser.currentUser()
-        println("Logged in as: \(user.email)")
+        print("Logged in as: \(user.email)")
         
     }
     
@@ -98,7 +98,7 @@ class ItemListViewController: UIViewController, UITableViewDelegate, UITableView
                 if !silent {
                     self.showError("Error getting Items")
                 }
-                println("Error getting items")
+                print("Error getting items")
                 
             }else{
                 self.items = items
@@ -176,7 +176,7 @@ class ItemListViewController: UIViewController, UITableViewDelegate, UITableView
                 cell.donorAvatar.image = image.resizedImageToSize(cell.donorAvatar.bounds.size)
                 
             }, failure: { (urlRequest: NSURLRequest!, response: NSURLResponse!, error: NSError!) -> Void in
-                println("error occured: \(error)")
+                print("error occured: \(error)")
             })
         }
         
@@ -301,7 +301,7 @@ class ItemListViewController: UIViewController, UITableViewDelegate, UITableView
         
         DataManager().sharedInstance.bidOn(item, amount: amount) { (success, errorString) -> () in
             if success {
-                println("Wohooo")
+                print("Wohooo")
                 self.items = DataManager().sharedInstance.allItems
                 self.reloadData()
                 SVProgressHUD.dismiss()
@@ -323,7 +323,7 @@ class ItemListViewController: UIViewController, UITableViewDelegate, UITableView
             let alertView = UIAlertController(title: "Error", message: errorString, preferredStyle: .Alert)
 
             let okAction = UIAlertAction(title: "Ok", style: .Default, handler: { (action) -> Void in
-                println("Ok Pressed")
+                print("Ok Pressed")
             })
             
             alertView.addAction(okAction)
