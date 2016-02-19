@@ -264,6 +264,7 @@
 				637EEC4E1A1A6D250091C60B /* Resources */,
 				634C333C1A1A7C590002E9AD /* Embed Frameworks */,
 				A47B4137FB49A44131FE537F /* Copy Pods Resources */,
+				A1E389CDF6BFB08A02DEE84B /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,6 +281,7 @@
 		637EEC481A1A6D250091C60B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = HubSpot;
 				TargetAttributes = {
@@ -326,6 +328,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		A1E389CDF6BFB08A02DEE84B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AuctionApp/Pods-AuctionApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A47B4137FB49A44131FE537F /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
