@@ -94,7 +94,7 @@ class DataManager: NSObject {
 }
 
 
-enum FilterType: Printable {
+enum FilterType: CustomStringConvertible {
     case All
     case NoBids
     case MyItems

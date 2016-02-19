@@ -65,11 +65,11 @@ class LoginViewController: UIViewController {
         let application = UIApplication.sharedApplication()
         
         if application.respondsToSelector("registerUserNotificationSettings:") {
-            let settings = UIUserNotificationSettings(forTypes: UIUserNotificationType.Alert | UIUserNotificationType.Sound | UIUserNotificationType.Badge, categories: nil)
+            let settings = UIUserNotificationSettings(forTypes: [UIUserNotificationType.Alert,UIUserNotificationType.Sound,UIUserNotificationType.Badge], categories: nil)
             application.registerUserNotificationSettings(settings)
             application.registerForRemoteNotifications()
         }else{
-            let types: UIRemoteNotificationType = .Badge | .Alert | .Sound
+            let types: UIRemoteNotificationType = [.Badge, .Alert, .Sound]
             application.registerForRemoteNotificationTypes(types)
         }
         
