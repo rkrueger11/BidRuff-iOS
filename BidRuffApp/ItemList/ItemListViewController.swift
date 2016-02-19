@@ -161,24 +161,9 @@ class ItemListViewController: UIViewController, UITableViewDelegate, UITableView
         var url:NSURL = NSURL(string: item.imageUrl)!
         cell.itemImageView.setImageWithURL(url)
         
-
-        let fullNameArr = item.donorName.componentsSeparatedByString(" ")
         cell.donorAvatar.image = nil;
-        if fullNameArr.count > 1{
-            var firstName: String = fullNameArr[0]
-            var lastName: String = fullNameArr[1]
-            var inital: String = firstName[0]
-            var donorAvatarStringUrl = "https://api.hubapi.com/socialintel/v1/avatars?email=\(inital)\(lastName)@hubspot.com"
-
-            var donorAvatarUrl:NSURL = NSURL(string: donorAvatarStringUrl)!
-            
-            cell.donorAvatar.setImageWithURLRequest(NSURLRequest(URL: donorAvatarUrl), placeholderImage: nil, success: { (urlRequest: NSURLRequest!, response: NSURLResponse!, image: UIImage!) -> Void in
-                cell.donorAvatar.image = image.resizedImageToSize(cell.donorAvatar.bounds.size)
-                
-            }, failure: { (urlRequest: NSURLRequest!, response: NSURLResponse!, error: NSError!) -> Void in
-                print("error occured: \(error)")
-            })
-        }
+        
+        //Add code to change donorAvatar later
         
         cell.itemDonorLabel.text = item.donorName
         cell.itemTitleLabel.text = item.name
