@@ -58,7 +58,7 @@ class DataManager: NSObject {
             
             if error != nil {
                 
-                if let errorString:String = error.userInfo?["error"] as? String{
+                if let errorString:String = error.userInfo["error"] as? String{
                     completion(false, errorCode: errorString)
                 }else{
                     completion(false, errorCode: "")

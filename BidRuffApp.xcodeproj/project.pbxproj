@@ -33,6 +33,7 @@
 		63FF2B9E1A2644AE00646D6B /* BiddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF2B9D1A2644AE00646D6B /* BiddingViewController.swift */; };
 		63FF2BA01A26463000646D6B /* BlurTransitionSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF2B9F1A26463000646D6B /* BlurTransitionSegue.swift */; };
 		98C19A038ECBB64AEDF63FF0 /* libPods-BidRuffApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1780CD31578F9B311C15C22C /* libPods-BidRuffApp.a */; };
+		DB51188B1C76D7DD008DA61D /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB51188A1C76D7DD008DA61D /* Keys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,6 +83,7 @@
 		63FF2B9F1A26463000646D6B /* BlurTransitionSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurTransitionSegue.swift; sourceTree = "<group>"; };
 		6E24F8C622DA76E0DBBC3953 /* Pods-BidRuffApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BidRuffApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BidRuffApp/Pods-BidRuffApp.release.xcconfig"; sourceTree = "<group>"; };
 		82D9E0BD4D3155B0829B9C15 /* Pods-BidRuffApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BidRuffApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BidRuffApp/Pods-BidRuffApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DB51188A1C76D7DD008DA61D /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				634C33641A1A7FB90002E9AD /* Models */,
 				637EEC551A1A6D250091C60B /* AppDelegate.swift */,
 				637EEC591A1A6D250091C60B /* Main.storyboard */,
+				DB51188A1C76D7DD008DA61D /* Keys.plist */,
 				637EEC5C1A1A6D250091C60B /* Images.xcassets */,
 				637EEC5E1A1A6D250091C60B /* LaunchScreen.xib */,
 				637EEC531A1A6D250091C60B /* Supporting Files */,
@@ -319,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB51188B1C76D7DD008DA61D /* Keys.plist in Resources */,
 				637EEC5B1A1A6D250091C60B /* Main.storyboard in Resources */,
 				637EEC601A1A6D250091C60B /* LaunchScreen.xib in Resources */,
 				637EEC5D1A1A6D250091C60B /* Images.xcassets in Resources */,
@@ -478,8 +482,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: HubSpot Inc";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HubSpot Inc";
+				CODE_SIGN_IDENTITY = "iPhone Developer: rkrueger11@gmail.com (YC733NL4QY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: rkrueger11@gmail.com (YC733NL4QY)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

@@ -7,7 +7,7 @@ import UIKit
 
 extension String {
     subscript (i: Int) -> String {
-        return String(Array(self)[i])
+        return String(Array(arrayLiteral: self)[i])
     }
 }
 
@@ -50,7 +50,7 @@ class ItemListViewController: UIViewController, UITableViewDelegate, UITableView
             tableView.rowHeight = UITableViewAutomaticDimension
         }
         self.tableView.alpha = 0.0
-        reloadData(silent: false, initialLoad: true)
+        reloadData(false, initialLoad: true)
 
         let user = PFUser.currentUser()
         print("Logged in as: \(user.email)")
@@ -131,12 +131,16 @@ class ItemListViewController: UIViewController, UITableViewDelegate, UITableView
                 let padding = 353
                 let minHeightText: NSString = "\n\n"
                 let font = UIFont(name: "Avenir Light", size: 15.0)!
-                let attributes =  [NSFontAttributeName: font] as NSDictionary
+                let attributes =  [NSFontAttributeName: font]
                 let item = items[indexPath.row]
+                let minSize = minHeightText.boundingRectWithSize(
+                    CGSize(width: (view.frame.size.width - 40),
+                           height: 1000),
+                           options: .UsesLineFragmentOrigin,
+                           attributes: attributes,
+                           context: nil).height
                 
-                let minSize = minHeightText.boundingRectWithSize(CGSize(width: (view.frame.size.width - 40), height: 1000), options: .UsesLineFragmentOrigin, attributes: attributes as [NSObject : AnyObject], context: nil).height
-                
-                let maxSize = item.itemDesctiption.boundingRectWithSize(CGSize(width: (view.frame.size.width - 40), height: 1000), options: .UsesLineFragmentOrigin, attributes: attributes as [NSObject : AnyObject], context: nil).height + 50
+                let maxSize = item.itemDesctiption.boundingRectWithSize(CGSize(width: (view.frame.size.width - 40), height: 1000), options: .UsesLineFragmentOrigin, attributes: attributes, context: nil).height + 50
                 
                 return (max(minSize, maxSize) + CGFloat(padding))
 
@@ -170,8 +174,8 @@ class ItemListViewController: UIViewController, UITableViewDelegate, UITableView
         cell.itemDescriptionLabel.text = item.itemDesctiption
         
         if item.quantity > 1 {
-            var bidsString = ", ".join(item.currentPrice.map({bidPrice in "$\(bidPrice)"}))
-            if count(bidsString) == 0 {
+            var bidsString = item.currentPrice.map({bidPrice in "$\(bidPrice)"}).joinWithSeparator(", ")
+            if bidsString.isEmpty {
                 bidsString = "(none yet)"
             }
             
