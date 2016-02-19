@@ -8,7 +8,7 @@
         <!--Login View Controller-->
         <scene sceneID="un1-64-FSE">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="L1S-fT-33x" customClass="LoginViewController" customModule="Auction" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="L1S-fT-33x" customClass="LoginViewController" customModule="BidRuff" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3Fp-1z-G0X"/>
                         <viewControllerLayoutGuide type="bottom" id="e6A-1h-DoS"/>
@@ -119,7 +119,7 @@
         <!--Item List View Controller-->
         <scene sceneID="lJQ-CL-qtf">
             <objects>
-                <viewController id="DqX-rp-Oxg" customClass="ItemListViewController" customModule="Auction" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DqX-rp-Oxg" customClass="ItemListViewController" customModule="BidRuff" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="28g-CM-SiM"/>
                         <viewControllerLayoutGuide type="bottom" id="cVI-NQ-4Jz"/>
@@ -142,7 +142,7 @@
                                     </connections>
                                 </searchBar>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ItemTableViewCell" rowHeight="392" id="O6g-Ig-KSM" customClass="ItemTableViewCell" customModule="Auction" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ItemTableViewCell" rowHeight="392" id="O6g-Ig-KSM" customClass="ItemTableViewCell" customModule="BidRuff" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="130" width="600" height="392"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O6g-Ig-KSM" id="ja8-Zf-ZQG">
@@ -404,7 +404,7 @@
         <!--Bidding View Controller-->
         <scene sceneID="zz1-wr-W1T">
             <objects>
-                <viewController storyboardIdentifier="BiddingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="d7m-zO-Df7" customClass="BiddingViewController" customModule="Auction" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BiddingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="d7m-zO-Df7" customClass="BiddingViewController" customModule="BidRuff" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TWS-3N-bAU"/>
                         <viewControllerLayoutGuide type="bottom" id="F9e-hx-T5a"/>

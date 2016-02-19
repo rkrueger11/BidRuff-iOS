@@ -67,7 +67,7 @@
 		634C33651A1A7FDB0002E9AD /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = Models/Item.swift; sourceTree = "<group>"; };
 		634C33671A1A7FE30002E9AD /* Bid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bid.swift; path = Models/Bid.swift; sourceTree = "<group>"; };
 		6372258C1A1CEE46003EC016 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemTableViewCell.swift; path = ItemList/ItemTableViewCell.swift; sourceTree = "<group>"; };
-		637EEC501A1A6D250091C60B /* Auction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		637EEC501A1A6D250091C60B /* BidRuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BidRuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		637EEC541A1A6D250091C60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		637EEC551A1A6D250091C60B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		637EEC5A1A1A6D250091C60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		637EEC511A1A6D250091C60B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				637EEC501A1A6D250091C60B /* Auction.app */,
+				637EEC501A1A6D250091C60B /* BidRuff.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -275,7 +275,7 @@
 			);
 			name = BidRuffApp;
 			productName = BidRuffApp;
-			productReference = 637EEC501A1A6D250091C60B /* Auction.app */;
+			productReference = 637EEC501A1A6D250091C60B /* BidRuff.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -512,6 +512,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BidRuffApp",
@@ -520,7 +521,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EPICS.BidRuff;
-				PRODUCT_NAME = Auction;
+				PRODUCT_NAME = BidRuff;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "BidRuffApp/BidRuffApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -537,6 +538,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BidRuffApp",
@@ -545,7 +547,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EPICS.BidRuff;
-				PRODUCT_NAME = Auction;
+				PRODUCT_NAME = BidRuff;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "BidRuffApp/BidRuffApp-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
